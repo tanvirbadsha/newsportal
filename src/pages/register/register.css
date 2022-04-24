@@ -1,0 +1,44 @@
+.register {
+  height: calc(100vh-50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: aliceblue;
+  align-items: center;
+}
+.regTitle {
+  font-size: 50px;
+}
+.regForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.regForm > label {
+  margin: 10px 0;
+}
+.regInput {
+  padding: 10px;
+  background-color: white;
+  border: none;
+}
+.regButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: teal;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+.loginButton {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: lightcoral;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}

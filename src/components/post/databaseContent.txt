@@ -1,0 +1,21 @@
+1.
+title: Tigers roar to historic away win over Proteas!
+Star Sports Report
+Fri Mar 18, 2022 10:02 PM Last update on: Sat Mar 19, 2022 02:02 AM
+
+Inspired by a concerted batting effort from the likes of Shakib Al Hasan, Liton Das, Tamim Iqbal and Yasir Ali, Bangladesh secured a 38-run victory over South Africa
+in the first ODI in Centurion today. The convincing win at the SuperSport Park, that helped Bangladesh take a 1-0 lead in the three-match series, was also the Tigers'
+maiden win away to South Africa in any format. Before this win, Bangladesh lost all the nine ODIs, six Tests and four T20Is played against South Africa in their
+back
+
+model Structure:
+{   "news_id": 1,
+    "category_id": 5,
+    "date_posted": 31,
+    "news_title": "Tigers roar to historic away win over Proteas!",
+    "news_content": "Inspired by a concerted batting effort from the likes of Shakib Al Hasan, Liton Das, Tamim Iqbal and Yasir Ali, Bangladesh secured a 38-run victory over South Africa in the first ODI in Centurion today. The convincing win at the SuperSport Park, that helped Bangladesh take a 1-0 lead in the three-match series, was also the Tigers maiden win away to South Africa in any format. Before this win, Bangladesh lost all the nine ODIs, six Tests and four T20Is played against South Africa in their back.",
+    "date_updated": 31 ,
+    "news_status": true,
+    "comment_status": false,
+    "author_id": 1
+    }
