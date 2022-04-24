@@ -1,7 +1,8 @@
-import "./topbar.css";
 import { Link } from "react-router-dom";
+import "./topbar.css";
 
 export default function Topbar() {
+  const user = false;
   return (
     <div className="top">
       <div className="topLeft">
@@ -27,11 +28,23 @@ export default function Topbar() {
               LATEST
             </Link>
           </li>
-          <li className="topListItem">LOGOUT</li>
+          <li className="topListItem">{user && "LOGOUT"}</li>
         </ul>
       </div>
       <div className="topRight">
-        <img className="topImg" src={require("./icon.jpg")} alt="icon" />
+        {user ? (
+          <img className="topImg" src={require("./icon.jpg")} alt="icon" />
+        ) : (
+          <>
+            <Link to="/login" className="link topListItem">
+              LOGIN
+            </Link>
+            <Link to="/register" className="link topListItem">
+              REGISTER
+            </Link>
+          </>
+        )}
+
         <i className="topSearchIcon fa-solid fa-magnifying-glass"></i>
       </div>
     </div>
