@@ -6,9 +6,10 @@ const postRoute = require("./Routes/posts");
 const catRoute = require("./Routes/categories");
 const multer = require("multer");
 const path = require("path");
+const app = require("./App");
 
 // App initialization
-const app = express();
+//const app = express();
 app.use(express.json());
 app.use("/images", express.static(path.join(__dirname, "/images")))
 
@@ -52,3 +53,5 @@ function errroHandler(err, req, res, next){
 app.listen(4000, ()=>{
     console.log("app listening at port 4000")
 })
+
+module.exportrs = app;
